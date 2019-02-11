@@ -1,0 +1,23 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% endif %}">
+    <meta name="author" content="Xadezign">
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - Xadezign</title>
+
+	<!-- Favicon -->
+	<link href="{{ base.url | prepend: site.url }}/assets/img/favicon.png" rel="icon" type="image/png">
+	<!-- Lien Canonique -->
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,600,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="{{ '/css/styles.css' | prepend: site.baseurl }}">
+
+</head> 
