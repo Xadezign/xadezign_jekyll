@@ -42,5 +42,5 @@ a-propos:
     body: Curieux, créatif et passionné je vous accompagne lors de la création de vos projets de site et applications web sur internet.
 form-contact-lead:
     title: Contact
-form-contact-lead: Besoin d’une stratégie et de conseils pour vos projets de sites ou applications web ?
+    body: Besoin d’une stratégie et de conseils pour vos projets de sites ou applications web ?
 ---

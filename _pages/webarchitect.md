@@ -9,5 +9,5 @@ webarchitect-body: Par des schémas et cas concrets je vous accompagne avec fiab
 permalink: /webarchitect/
 form-contact-lead:
     title: Prenez contact et rencontrons-nous
-form-contact-lead: Qualifiez et menez à bien vos projets de site web et web application sur internet.
+    body: Qualifiez et menez à bien vos projets de site web et web application sur internet.
 ---
