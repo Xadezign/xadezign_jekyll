@@ -3,16 +3,16 @@ layout: about
 title: About
 permalink: /a-propos/
 icon: <i class="fas fa-info-circle text-purple"></i>
-name-badge: Lorem Ipsum
-title-h1: A propos
-lead-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec justo enim.
+name-badge: Consultant Web
+title-h1: A propos de François Perrier
+lead-title: Un consultant Web dans la région Occitanie (Toulouse & Montauban) depuis plus de 8 ans dans le métier du Web et des nouvelles technologies.
 a-propos:
-    title: Bio et bon
-    body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec enim et risus interdum accumsan. Sed risus neque, faucibus in imperdiet a, efficitur eu lectus. Fusce at odio nunc. Suspendisse porttitor quam at dui dapibus euismod et ac odio.
+    title: Bio 
+    body: Passion du web, nouvelles technologies...
 fp:
-    title: FP
-    body1: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet fermentum.
-    body2: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet fermentum.
+    title: Parcours et Formation professionnel
+    body1: BMV Communication, Sudokeys Chef de projet fonctionnel
+    body2: Up Position pendant plus de 6 ans dans le Lot-Et-Garonne (Agen), Régie publicitaire... et Formation CESI Bordeaux (RIL et DIM)
 form-contact-lead:
     title: Besoin d'une compétence particulière ?
     body: blabla.

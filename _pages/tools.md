@@ -3,8 +3,8 @@ layout: page_techniques
 title: Outils & Techniques
 permalink: /outils-techniques/
 icon: <i class="fas fa-tools text-purple"></i>
-name-badge: Lorem Ipsum
-title-h1: Techniques & outils
+name-badge: Prestations personnalisées
+title-h1: Techniques & Outils
 lead-title: L’expérience pluridisciplinaire de techniques et d’outils web innovants
 adminless:
     title: Site simple &  léger
@@ -36,11 +36,11 @@ tools:
         icon: <i class="fab fa-vuejs"></i>
     erp:
         title: ERP / CRM
-        body: Gestion avancée de votre entreprise pour la gestion relation client de contacts 
+        body: Gestion avancée de votre entreprise avec par exemple des outils pour la gestion relation clients, de contacts, projets ou produits. 
     carto:
         title: Cartographie / Webmapping
-        body: Webmapping c’est la cartographie numérique et digitale sur différents supports, application web, site web, internet et mobile.
+        body: Webmapping ? De la cartographie numérique et digitale sur différents supports, application web, site web, internet et mobile.
 form-contact-lead:
-    title: Besoin d'une compétence particulière ?
-    body: blabla.
+    title: Besoin d'un outil technique particulier ?
+    body: Gagnez du temps et contactez-moi
 ---

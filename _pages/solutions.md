@@ -11,34 +11,34 @@ solutions:
     body: Selon votre secteur d'activité ou votre type de structure j’adapte les solutions web selon vos exigences.
 admin:
     title: Administrations
-    body: Vous êtes une administration ou institution publique à intérêt général
+    body: Vous êtes une administration ou institution publique à intérêt général.
 entreprises:
     title: Entreprises
-    body: Si vous êtes une entreprise éthique et écologique à intérêt général et produisant des externalités positives.
+    body: Si vous êtes une entreprise éthique et/ou écologique à intérêt général et produisant des externalités positives.
 associations:
     title: Associations
-    body: Assos à but non lucratif de l’économie sociale et solidaire (ESS).
+    body: Associations à but non lucratif de l’économie sociale et solidaire (ESS).
 ecommerce:
-    title: eConnmerce / Catalogue
-    body:  eCommerce/Catalogue classique avec une partie administrable.
+    title: eCommerce / Catalogue
+    body:  Sites web ecommerce ou catalogue classique avec une partie administrable.
     icon: <i class="fas fa-shopping-cart"></i>
 corporate:
     title: Corporate / Institutionnel
-    body: Corporate/Institutionnel, administrable ou static no-admin
+    body: Site classique corporate ou de présentation, administrable ou static no-admin
     icon: <i class="fas fa-landmark"></i>
 blog:
     title: Portfolio/ Blog
-    body: Portfolio/Blog, administrable ou static no-admin
+    body: Blog ou page de présentation personnelle de créations, administrable ou static no-admin
     icon: <i class="fas fa-newspaper"></i>
 intranet:
     title: Intranet & Web Application
-    body: Intranet/Web Application, en progressive web application ou single application avec une partie administrable.
+    body: Web application, CRM/ERP, en progressive web application ou single application avec une partie administrable.
     icon: <i class="fab fa-react"></i>
 webmarketing:
     badge: Un projet des solutions
     title: Webmarketing
-    body: Les outils utilisés pour le marketing automation ':' MailChimp, Mautic ou Hubspot
+    body: Les outils utilisés pour le marketing automation via MailChimp, Mautic ou Hubspot.
 form-contact-lead:
-    title: Besoin d'une compétence particulière ?
+    title: Besoin d'une solution web particulière ?
     body: Maîtrisez et profitez de solutions web pour votre secteur
 ---

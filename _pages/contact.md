@@ -3,13 +3,12 @@ layout: contact
 title: Contact
 permalink: /contact/
 icon: <i class="fas fa-address-card text-purple"></i>
-name-badge: Lorem Ipsum
+name-badge: Page de contact
 title-h1: Contact
-lead-title: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec justo enim.
+lead-title: Page de contact classique pour me contacter pour tous vos besoins et demandes web ou digitales.
 contact:
     title: Contactez François Perrier / Consultant Web
     body: Prenons rendez-vous et rencontrons-nous pour échanger et partager autour de votre projet de création de site web et internet.
 form-contact-lead:
     title: Besoin d'une compétence particulière ?
-    body: blabla.
 ---

@@ -1,19 +1,19 @@
 ---
 layout: page_webmarketing
-title: Conseils en Webmarketing
+title: Conseils stratégique en Webmarketing
 permalink: /webmarketing/
 icon: <i class="fas fa-bullhorn text-purple"></i>
 title-h1: Webmarketing
 name-badge: Promotion & visibilité sur le web
 lead-title: J’élabore des stratégies marketing adaptées à vos besoins. Via une approche naturelle du référencement (SEO) et du marketing automation (Inbound marketing).
 webmarketing:
-    title: Prise en charge web unique et locale
-    body: Le marketing interactif ou Webmarketing ainsi que le SEO et le référencement sont les principales composantes du marketing moderne ':' ils nécessitent des connaissances du marché cible et des connaissances techniques qui permettent d'optimiser et d'assurer le développement de vos projets numériques (digitaux).
+    title: Diffusez vos idées, partagez votre vision
+    body: Le marketing interactif ou Webmarketing ainsi que le SEO et le référencement sont les principales composantes du marketing moderne. Ils nécessitent des connaissances du marché cible et des compétences techniques qui permettent d'optimiser et d'assurer le développement de vos projets numériques (digitaux).
 ref-seo:
     title: Référencement SEO
     body1: Une analyse technique des performances sur différents supports mobiles, web et appareils.
     body2: Les moteurs de recherche incluent de plus en plus la e-réputation et la notoriété du site web.
-    body3: Les mots clés et leur disposition dans la syntaxe d’une page (sémantique) sont une part essentielle du référencement. 
+    body3: Les mots clés et leurs dispositions dans la syntaxe d’une page (sémantique) sont une part essentielle du référencement. 
 ma:
     capture:
         title: Capturer
@@ -33,7 +33,7 @@ ma:
         icon: <i class="fas fa-tachometer-alt"></i>
 analyses:
     title: Analyses Statistiques
-    body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec enim et risus interdum accumsan. Sed risus neque, faucibus in imperdiet a, efficitur eu lectus. Fusce at odio nunc. Suspendisse porttitor quam at dui dapibus euismod et ac odio.
+    body: Agrégez les données de visites de votre site et analysez les performances. Suivez l'évolution dans des tableaux et documents dynamiques l'ensemble de vos données. 
 analytics:
     title: Analytics
     body: Basé sur l’analyse des comportements, de l’audience et de l'acquisition afin de mieux répondre aux objectifs comme dans Google Analytics / Piwik (Matomo)
@@ -44,5 +44,4 @@ data-studio:
     icon: <i class="fas fa-chart-pie"></i>
 form-contact-lead:
     title: Besoin d'optimiser votre positionnement et visibilité web ? 
-    body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet fermentum.
 ---
