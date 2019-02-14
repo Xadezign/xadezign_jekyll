@@ -2,39 +2,14 @@
 layout: default
 ---
 
-<div class="position-relative">
-	<!-- shape Hero -->
-	<section class="section section-lg section-shaped pb-250">
-		<div class="shape shape-style-1 shape-default"></div>
-		<!-- SVG separator -->
-		<div class="separator separator-bottom separator-skew">
-			<svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-				<polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-			</svg>
-		</div>
-		<div class="container py-lg-md pb-sm-xl d-flex">
-			<div class="col px-0">
-				<div class="row">
-					<div class="col-md-4">
-                        <div class="icon icon-shape bg-white rounded-circle text-white">
-                            <i class="fas fa-pen text-purple"></i>
-                        </div>
-						<span class="text-yellow badge">{{page.name-badge}}</span>
-						<h1 class="display-4 text-white text-uppercase">{{page.title-h1}}</h1>
-						<p class="text-white mt-1">{{page.lead-title}}</p>
-					</div>
-				</div>
-			</div>
-		 </div>
-	</section>
-</div>
+{% include header-main.html%}
 <section class="section section-lg">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-lg-8">	
                     <div class="text-center">
-                        <h2>{{page.webarchitect-title}}</h2>
-                        <p>{{page.webarchitect-body}}</p>
+                        <h2>{{page.webmarketing.title}}</h2>
+                        <p>{{page.webmarketing.body}}</p>
                     </div>	
             </div>
         </div>
@@ -45,7 +20,7 @@ layout: default
 		<div class="row">
 			<div class="col-sm">
 				<div class="card--hover mb-5">
-					<h2 class="text-uppercase">{{ page.ref-seo.title }}</h2>
+					<h2>{{ page.ref-seo.title }}</h2>
 				</div>
 				<div class="mb-5">
 					<p>{{ page.ref-seo.body1 }}</p>
@@ -57,7 +32,7 @@ layout: default
 					<p>{{ page.ref-seo.body3 }}</p>
 				</div>
 			</div>
-			<div class="col-sm">
+			<div class="col-sm mt-5">
 				<div class="card card-profile">
 					<img src="https://picsum.photos/200/300/?random" alt="">
 				</div>
@@ -65,21 +40,21 @@ layout: default
 		</div>
 	</div>
 </section>
-<section class="section section-lg section-shaped pb-250">
+<section class="section section-lg section-shaped pb-150">
     <div class="shape shape-style-1 shape-default"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <h2 class="text-white text-uppercase">Marketing Automation</h2>
+            <div class="col-lg-4 pt-200">
+                <h2 class="text-white">Marketing Automation</h2>
             </div>
             <div class="col-lg-8">
 				<div class="row">
 					<div class="col-lg-6">
-						<div class="card shadow shadow-lg--hover mt-5">
+						<div class="card shadow shadow-lg--hover mt-5 h-26vh">
 							<div class="card-body">
 								<div class="d-flex px-3">
 										<div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-											<i class="fas fa-pen"></i>
+											{{ page.ma.capture.icon }}
 										</div>
 									<div class="pl-4">
 										<h6 class="title text-primary">{{ page.ma.capture.title }}</h6>
@@ -90,14 +65,14 @@ layout: default
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div class="card shadow shadow-lg--hover mt-5">
+						<div class="card shadow shadow-lg--hover mt-5 h-26vh">
 							<div class="card-body">
 								<div class="d-flex px-3">
-									<div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-										<i class="fas fa-pen"></i>
+									<div class="icon icon-shape bg-gradient-pink rounded-circle text-white">
+										{{ page.ma.qual.icon }}
 									</div>
 								<div class="pl-4">
-									<h3 class="title text-primary display-6">{{ page.ma.qual.title }}</h5>
+									<h6 class="title text-primary display-6">{{ page.ma.qual.title }}</h6>
 									<p>{{ page.ma.qual.body }}</p>
 								</div>
 								</div>
@@ -107,14 +82,14 @@ layout: default
 				</div>
 				<div class="row">
 					<div class="col-lg-6">
-						<div class="card shadow shadow-lg--hover mt-5">
+						<div class="card shadow shadow-lg--hover mt-5 h-26vh">
 							<div class="card-body">
 								<div class="d-flex px-3">
-									<div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-										<i class="fas fa-pen"></i>
+									<div class="icon icon-shape bg-gradient-orange rounded-circle text-white">
+										{{ page.ma.nurtur.icon }}
 									</div>
 									<div class="pl-4">
-										<h3 class="title text-primary">{{ page.ma.nurtur.title }}</h3>
+										<h6 class="title text-primary">{{ page.ma.nurtur.title }}</h6>
 										<p>{{ page.ma.nurtur.body }}</p>
 									</div>
 								</div>
@@ -122,14 +97,14 @@ layout: default
 						</div>
 					</div>
 					<div class="col-lg-6">
-						<div class="card shadow shadow-lg--hover mt-5">
+						<div class="card shadow shadow-lg--hover mt-5 h-26vh">
 							<div class="card-body">
 								<div class="d-flex px-3">
-									<div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-										<i class="fas fa-pen"></i>
+									<div class="icon icon-shape bg-gradient-green rounded-circle text-white">
+										{{ page.ma.pilot.icon }}
 									</div>
 									<div class="pl-4">
-										<h3 class="title text-primary">{{ page.ma.pilot.title }}</h3>
+										<h6 class="title text-primary">{{ page.ma.pilot.title }}</h6>
 										<p>{{ page.ma.pilot.body }}</p>
 									</div>
 								</div>
@@ -140,30 +115,29 @@ layout: default
 			</div>
         </div>
     </div>
-    
 </section>
 <section class="section section-lg">
     <div class="container">
-        <div class="row justify-content-center text-center">
+        <div class="row justify-content-center text-center mb-5">
             <div class="col-lg-8">	
 				<div class="text-center">
-					<h2 class="text-uppercase">{{page.analyses.title}}</h2>
+					<h2>{{page.analyses.title}}</h2>
 					<p>{{page.analyses.body}}</p>
 				</div>	
             </div>
 		</div>
 		<div class="row justify-content-center text-center">
-			<div class="col-lg-6">
-				<div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-					<i class="fas fa-pen"></i>
+			<div class="col-lg-6 mt-5">
+				<div class="icon icon-shape bg-gradient-orange rounded-circle text-white">
+					{{ page.analytics.icon }}
 				</div>
 				<h3>{{ page.analytics.title }}</h3>
 				<p>{{ page.analytics.body }}</p>
 				<img class="img-fluid floating" src="https://picsum.photos/200/300/?random" alt="">
 			</div>
-			<div class="col-lg-6">
-				<div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-					<i class="fas fa-pen"></i>
+			<div class="col-lg-6 mt-5">
+				<div class="icon icon-shape bg-gradient-blue rounded-circle text-white">
+					{{ page.data-studio.icon }}
 				</div>
 				<h3>{{ page.data-studio.title }}</h3>
 				<p>{{ page.data-studio.body }}</p>

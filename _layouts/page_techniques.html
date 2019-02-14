@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% include header-main.html%}
 <section class="section section-lg pt-lg-0 mt--200">
     <div class="container">
@@ -11,10 +12,10 @@ layout: default
                 <div class="card card-lift--hover shadow border-0">
                     <div class="card-body py-5">
                         <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i class="fas fa-building"></i>
+                            <i class="fas fa-feather-alt"></i>
                         </div>
-                        <h6 class="text-primary text-uppercase">{{ page.admin.title }}</h6>
-                        <p class="description mt-3">{{ page.admin.body }}</p>
+                        <h6 class="text-primary text-uppercase">{{ page.adminless.title }}</h6>
+                        <p class="description mt-3">{{ page.adminless.body }}</p>
                     </div>
                 </div>
             </div>
@@ -22,10 +23,10 @@ layout: default
                 <div class="card card-lift--hover shadow border-0">
                     <div class="card-body py-5">
                         <div class="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i class="fas fa-briefcase"></i>
+                            <i class="fas fa-toolbox"></i>
                         </div>
-                        <h6 class="text-success text-uppercase">{{ page.entreprises.title }}</h6>
-                        <p class="description mt-3">{{ page.entreprises.body }}</p>
+                        <h6 class="text-success text-uppercase">{{ page.admin.title }}</h6>
+                        <p class="description mt-3">{{ page.admin.body }}</p>
                     </div>
                 </div>
             </div>
@@ -33,10 +34,10 @@ layout: default
                 <div class="card card-lift--hover shadow border-0">
                     <div class="card-body py-5">
                         <div class="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                            <i class="fas fa-users"></i>
+                            <i class="fas fa-cut"></i>
                         </div>
-                        <h6 class="text-warning text-uppercase">{{ page.associations.title }}</h6>
-                        <p class="description mt-3">{{ page.associations.body }}</p>
+                        <h6 class="text-warning text-uppercase">{{ page.custom.title }}</h6>
+                        <p class="description mt-3">{{ page.custom.body }}</p>
                     </div>
                 </div>
             </div>
@@ -51,8 +52,8 @@ layout: default
             <div class="col-md-6 order-md-2"><img class="img-fluid floating" src="https://picsum.photos/200/300/?random" alt=""></div>
             <div class="col-md-6 order-md-1">
                 <div class="pr-md-5">
-                    <h2>{{ page.solutions.title }}</h2>
-                    <p>{{ page.solutions.body }}</p>
+                    <h2 class="text-uppercase">{{ page.tools.title }}</h2>
+                    <p>{{ page.tools.body }}</p>
                 </div>
             </div>
         </div>
@@ -67,12 +68,12 @@ layout: default
                         <div class="d-flex px-3">
                         <div>
                             <div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-                                {{ page.ecommerce.icon }}
+                                {{ page.tools.cms.icon }}
                             </div>
                         </div>
                         <div class="pl-4">
-                                <h5 class="title text-primary">{{ page.ecommerce.title }}</h5>
-                                <p>{{ page.ecommerce.body }}</p>
+                                <h5 class="title text-primary">{{ page.tools.cms.title }}</h5>
+                                <p>{{ page.tools.cms.body }}</p>
                         </div>
                         </div>
                     </div>
@@ -84,12 +85,12 @@ layout: default
                         <div class="d-flex px-3">
                         <div>
                             <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
-                                {{ page.corporate.icon }}
+                                {{ page.tools.sg.icon }}
                             </div>
                         </div>
                         <div class="pl-4">
-                                <h5 class="title text-danger">{{ page.corporate.title }}</h5>
-                                <p>{{ page.corporate.body }}</p>
+                                <h5 class="title text-danger">{{ page.tools.sg.title }}</h5>
+                                <p>{{ page.tools.sg.body }}</p>
                         </div>
                         </div>
                     </div>
@@ -103,12 +104,12 @@ layout: default
                         <div class="d-flex px-3">
                         <div>
                             <div class="icon icon-shape bg-gradient-purple rounded-circle text-white">
-                                {{ page.blog.icon }}
+                                {{ page.tools.headless.icon }}
                             </div>
                         </div>
                         <div class="pl-4">
-                            <h5 class="title text-primary">{{ page.blog.title }}</h5>
-                            <p>{{ page.blog.body }}</p>
+                            <h5 class="title text-primary">{{ page.tools.headless.title }}</h5>
+                            <p>{{ page.tools.headless.body }}</p>
                         </div>
                         </div>
                     </div>
@@ -120,12 +121,12 @@ layout: default
                             <div class="d-flex px-3">
                                 <div>
                                     <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
-                                        {{ page.intranet.icon }}
+                                        {{ page.tools.pwa.icon }}
                                     </div>
                                 </div>
                                 <div class="pl-4">
-                                    <h5 class="title text-danger">{{ page.intranet.title }}</h5>
-                                    <p>{{ page.intranet.body }}</p>
+                                    <h5 class="title text-danger">{{ page.tools.pwa.title }}</h5>
+                                    <p>{{ page.tools.pwa.body }}</p>
                                 </div>
                             </div>
                         </div>
@@ -141,27 +142,29 @@ layout: default
         </svg>
     </div>
 </section>
-<section class="section">
-        <div class="container">
-          <div class="row row-grid align-items-center">
-            <div class="col-md-6">
-              <div class="card bg-default shadow border-0">
-                <img src="../assets/img/theme/img-1-1200x1000.jpg" class="card-img-top">
-                <blockquote class="card-blockquote">
-                  <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="svg-bg">
-                    <polygon points="0,52 583,95 0,95" class="fill-default" />
-                    <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default" />
-                  </svg>
-                </blockquote>
-              </div>
+<section class="section section-lg">
+    <div class="container">
+        <div class="row row-grid align-items-center">
+            <div class="col-md-6 order-md-2"><img class="img-fluid floating" src="https://picsum.photos/200/300/?random" alt=""></div>
+            <div class="col-md-6 order-md-1">
+                <div class="pr-md-5">
+                    <h3>{{ page.tools.erp.title }}</h3>
+                    <p>{{ page.tools.erp.body }}</p>
+                </div>
             </div>
-            <div class="col-md-6">
-              <div class="pl-md-5">
-                <span class="badge">{{page.webmarketing.badge}}</span>
-                <h3>{{ page.webmarketing.title }}</h3>
-                <p class="lead">{{ page.webmarketing.body }}</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </div>
+</section>
+<section class="section section-lg bg-secondary">
+    <div class="container">
+        <div class="row row-grid align-items-center">
+            <div class="col-md-6 order-md-1"><img class="img-fluid floating" src="https://picsum.photos/200/300/?random" alt=""></div>
+            <div class="col-md-6 order-md-2">
+                <div class="pr-md-5">
+                    <h3>{{ page.tools.carto.title }}</h3>
+                    <p>{{ page.tools.carto.body }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

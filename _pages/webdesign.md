@@ -2,6 +2,7 @@
 layout: page_webdesign
 permalink: /webdesign/
 title: Conseils en Webdesign - UI/UX Design
+icon: <i class="fas fa-palette text-purple"></i>
 name-badge: Design Web professionnel pour les interfaces
 title-h1: Webdesign
 lead-title: Des interfaces web uniques et adaptées 

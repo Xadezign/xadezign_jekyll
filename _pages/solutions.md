@@ -2,6 +2,7 @@
 layout: page_solutions
 title: Solutions Web
 permalink: /solutions-web/
+icon: <i class="fas fa-code-branch text-purple"></i>
 name-badge: Un projet, des solutions
 title-h1: Solutions Web
 lead-title: Solutions web adaptées aux différents secteurs d’activité
@@ -20,15 +21,19 @@ associations:
 ecommerce:
     title: eConnmerce / Catalogue
     body:  eCommerce/Catalogue classique avec une partie administrable.
+    icon: <i class="fas fa-shopping-cart"></i>
 corporate:
     title: Corporate / Institutionnel
     body: Corporate/Institutionnel, administrable ou static no-admin
+    icon: <i class="fas fa-landmark"></i>
 blog:
     title: Portfolio/ Blog
     body: Portfolio/Blog, administrable ou static no-admin
+    icon: <i class="fas fa-newspaper"></i>
 intranet:
     title: Intranet & Web Application
     body: Intranet/Web Application, en progressive web application ou single application avec une partie administrable.
+    icon: <i class="fab fa-react"></i>
 webmarketing:
     badge: Un projet des solutions
     title: Webmarketing

@@ -2,7 +2,7 @@
         <div class="container pt-3 pb-300">
             <div class="row text-center justify-content-center">
                 <div class="col-lg-10">
-                    <h2 class="display-3 text-white">{{ page.form-contact-lead.title }}</h2>
+                    <h2 class="display-3 text-white"><a href="/contact" class="text-white">{{ page.form-contact-lead.title }}</a></h2>
                     <p class="lead text-white">{{ page.form-contact-lead.body }}</p>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                             <div class="form-group">
                                 <div class="input-group input-group-alternative">
                                     <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                    <span class="input-group-text"><i class="far fa-envelope"></i></span>
                                     </div>
                                     <input class="form-control" placeholder="Votre adresse courriel" type="email">
                                 </div>
@@ -47,7 +47,12 @@
                             <div>
                                 <button type="button" class="btn btn-default btn-round btn-block btn-lg">Envoyer le message</button>
                             </div>
+                            <div class="custom-control custom-checkbox mb-3 mt-4">
+                                    <input class="custom-control-input" id="customCheck1" type="checkbox">
+                                    <label class="custom-control-label" for="customCheck1">En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de la demande de devis et de la relation commerciale qui peut en découler.</label>
+                                  </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

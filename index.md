@@ -12,21 +12,21 @@ creative-title: Creative Technologist
 creative-body: 
     bloc1: Le technologue créatif est un profil métier hybride aux multiples compétences en technologie IT, marketing et design ou au carrefour du créatif, du technologique et de la communication. 
     bloc2: Une interdisciplinarité transversale du concepteur au testeur en passant par le prototypeur et le codeur. L’innovation, l’expérimentation et la veille technologique dense font partie de mon profil professionnel. 
-    bloc3: Ajouter du bla bla sur la localisation
+    bloc3: Consultant web et numérique ainsi que technologue créatif en Occitanie.
 expert:
     title: Expertises & Conseils Numériques
     body: Je réponds aux différents enjeux de vos projets grâce à une approche conseil et un éventail d’expertises adaptées et solutions sur-mesure.
     webarchitect:
         title: Web Architect
-        body: The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.
+        body: De la stratégie à la mise en œuvre de vos projets techniques.
         link: Structurez votre projet
     webmarketing:
         title: Web Marketing
-        body: The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.
+        body: J’élabore des stratégies marketing adaptées à vos besoins.
         link: Diffusez vos idées
     webdesign:
         title: Web Design
-        body: The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever.
+        body: Des interfaces web uniques et adaptées à vos besoins.
         link: Designez vos projets
 sols:
     title: Outils & Solutions Web
