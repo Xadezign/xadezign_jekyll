@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact
+title: Contact François Perrier - Consultant Web & Digital
 permalink: /contact/
 icon: <i class="fas fa-address-card text-purple"></i>
 name-badge: Page de contact

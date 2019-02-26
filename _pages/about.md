@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: A propos de François Perrier - Consultant Web & Digital (Toulouse - Montauban)
 permalink: /a-propos/
 icon: <i class="fas fa-info-circle text-purple"></i>
 name-badge: Consultant Web
