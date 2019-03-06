@@ -11,10 +11,10 @@ webarchitect:
     body: Par des flux de documents performants, des schémas et des cas concrets je vous accompagne avec fiabilité, pragmatisme et réalisme. Je vous propose des projets web efficaces et réalisables. Le numérique est un monde en perpétuel mouvement.
 gestion:
     title: Gestion et suivi de projets web
-    body: Pour accélérer et optimiser la réussite de vos projets, vous avez besoin d’être accompagnés dans le pilotage de vos projets.
+    body: Pour développer et optimiser la réussite de vos projets, vous avez besoin d’être accompagnés dans le pilotage de vos projets.
 agile:
     title: Méthodologie agile
-    body: Accélérer le développement du produit web de façon incrémentale et itérative.
+    body: Accélérez le développement du produit web de façon incrémentale et itérative.
 presta:
     title: Recherche de prestataires
     body: Un projet web est composé de multiples compétences. Il est primordial de garder la communication entre les équipes.
