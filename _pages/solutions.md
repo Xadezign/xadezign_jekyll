@@ -1,6 +1,7 @@
 ---
 layout: page_solutions
-title: Solutions Web
+title: Solutions digitales et Web
+description : Un projet, des solutions web et digitales accompagnées par un consultant en Occitanie (Toulouse et Montauban)
 permalink: /solutions-web/
 icon: <i class="fas fa-code-branch text-purple"></i>
 name-badge: Un projet, des solutions

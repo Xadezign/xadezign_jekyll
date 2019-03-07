@@ -1,6 +1,7 @@
 ---
 layout: page_techniques
-title: Outils & Techniques
+title: Outils & Techniques web et digitaux
+description: L’expérience pluridisciplinaire de techniques et d’outils web innovants, par un consultant web et digital en occitanie (Toulouse et Montauban)
 permalink: /outils-techniques/
 icon: <i class="fas fa-tools text-purple"></i>
 name-badge: Prestations personnalisées

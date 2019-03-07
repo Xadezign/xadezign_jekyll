@@ -1,6 +1,7 @@
 ---
 layout: page_webarchitect
 title: Conseils en conception web sites et web applications
+description: De la stratégie à la mise en œuvre technique, François Perrier consultant web accompagne à chaque étape d’un projet web ou numérique (digital).
 permalink: /webarchitect/
 icon: <i class="fas fa-pen text-purple"></i>
 title-h1: Webarchitect

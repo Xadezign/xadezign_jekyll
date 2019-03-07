@@ -1,6 +1,7 @@
 ---
 layout: contact
 title: Contact François Perrier - Consultant Web & Digital
+description: Page de contact classique pour contacter François Perrier - consultant web et digital - pour tous vos besoins et demandes web ou digitales.
 permalink: /contact/
 icon: <i class="fas fa-address-card text-purple"></i>
 name-badge: Page de contact
