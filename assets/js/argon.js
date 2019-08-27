@@ -187,7 +187,11 @@ $(document).ready(function() {
     });
 
     // --- Validate ---//
-    $("#idForm").validate();
+    var validator = $("#idForm").validate();
+    validator.showErrors({
+        "name": "Indiquez le nom"
+      });
+      
   
 
  });   
