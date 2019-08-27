@@ -178,19 +178,15 @@ $(document).ready(function() {
     // ==== Verify Checkbox RGPD ==== //
     // Traitements sur des cases à chocher
     $("input[type=checkbox][name=check-rgpd]").change(function() {
-        $("button[type=submit][name=submit-form]").prop('disabled', true);
-        if(this.checked) {
-            $("button[type=submit][name=submit-form]").prop('disabled', false);
-        }else if(!this.checked) {
-        // Si la case est n'est pas cochée, on fait d'autres traitements
+        if(!this.checked) {
             $("button[type=submit][name=submit-form]").prop('disabled', true);
+        }else if(this.checked) {
+        // Si la case est n'est pas cochée, on fait d'autres traitements
+            $("button[type=submit][name=submit-form]").prop('disabled', false);
         }
     });
 
     // --- Validate ---//
     $("#idForm").validate();
- 
-      
-  
 
  });   
