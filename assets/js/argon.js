@@ -192,7 +192,10 @@ $(document).ready(function() {
     $("#idForm").validate({
         messages: {
             name: {
-                required: "Test"
+                required: "Indiquez votre nom"
+            },
+            email: {
+                required: "Indiquez votre courriel"
             }
         }
     });
