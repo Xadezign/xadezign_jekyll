@@ -176,6 +176,7 @@ $(document).ready(function() {
     });
 
     // ==== Verify Checkbox RGPD ==== //
+    $("button[type=submit][name=submit-form]").prop('disabled', false);
     // Traitements sur des cases à chocher
     $("input[type=checkbox][name=check-rgpd]").change(function() {
         $(this).attr('checked', false);
