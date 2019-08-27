@@ -185,6 +185,9 @@ $(document).ready(function() {
             $("button[type=submit][name=submit-form]").prop('disabled', true);
         }
     });
+
+    // --- Validate ---//
+    $("#idForm").validate();
   
 
  });   
