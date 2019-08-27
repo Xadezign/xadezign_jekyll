@@ -14,7 +14,7 @@
             </svg>
         </div>
     </section>
-    <form accept-charset="UTF-8" method="POST">
+    <form accept-charset="UTF-8" data-netlify="true" netlify-honeypot="bot-field" method="POST">
         <section class="section section-lg pt-lg-0 section-contact-us">
             <div class="container">
                 <div class="row justify-content-center mt--300">
@@ -25,6 +25,9 @@
                                     <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-warning ">
                                         <i class="fas fa-envelope"></i>
                                     </div>
+                                </div>
+                                <div class="hidden">
+                                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                                 </div>	
                                 <div class="form-group mt-5">
                                     <div class="input-group input-group-alternative">
@@ -39,7 +42,7 @@
                                         <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="far fa-envelope"></i></span>
                                         </div>
-                                        <input class="form-control" placeholder="Votre adresse courriel" name="_replyto" type="email">
+                                        <input class="form-control" placeholder="Votre adresse courriel" name="email" type="email">
                                     </div>
                                 </div>
                                 <div class="form-group mb-4">
@@ -61,7 +64,3 @@
             </div>
         </section>
     </form>
-    <script>
-        var contactform =  document.getElementById('formaction');
-        contactform.setAttribute('action', '//formspree.io/' + 'contact' + '@' + 'xadezign' + '.' + 'com');
-    </script>
