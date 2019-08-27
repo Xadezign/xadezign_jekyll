@@ -189,7 +189,8 @@ $(document).ready(function() {
     // --- Validate ---//
     var validator = $("#idForm").validate();
     validator.showErrors({
-        "name": "Indiquez le nom"
+        "name": "Indiquez le nom",
+        "email": "Indiquez votre courriel"
       });
       
   
