@@ -179,10 +179,10 @@ $(document).ready(function() {
     // Traitements sur des cases à chocher
     $("input[type=checkbox][name=check-rgpd]").change(function() {
         if(this.checked) {
-            $("button[type=submit][name=submit-form]").removeClass('not-checked');
+            $("button[type=submit][name=submit-form]").prop('enabled', true);
         }else if(!this.checked) {
         // Si la case est n'est pas cochée, on fait d'autres traitements
-            $("button[type=submit][name=submit-form]").addClass('not-checked');
+            $("button[type=submit][name=submit-form]").prop('disabled', true);
         }
     });
   
