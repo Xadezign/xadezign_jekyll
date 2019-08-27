@@ -190,9 +190,9 @@ $(document).ready(function() {
 
     // --- Validate ---//
     $("#idForm").validate({
-        rules: {
-            field: {
-                name: "Test"
+        messages: {
+            name: {
+                required: "Test"
             }
         }
     });
