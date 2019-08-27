@@ -189,6 +189,12 @@ $(document).ready(function() {
     });
 
     // --- Validate ---//
-    $("#idForm").validate();
+    $("#idForm").validate({
+        rules: {
+            field: {
+                name: "Test"
+            }
+        }
+    });
 
  });   
