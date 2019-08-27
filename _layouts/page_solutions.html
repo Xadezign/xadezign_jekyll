@@ -48,7 +48,7 @@ layout: default
 <section class="section section-lg">
     <div class="container">
         <div class="row row-grid align-items-center">
-            <div class="col-md-6 order-md-2"><img class="img-fluid floating" src="/assets/img/digital_technology_solutions.svg" alt="Solutions & Conseils Web"></div>
+            <div class="col-md-6 order-md-2"><img class="img-fluid floating" src="{{ base.url | prepend: site.url }}/assets/img/digital_technology_solutions.svg" alt="Solutions & Conseils Web"></div>
             <div class="col-md-6 order-md-1">
                 <div class="pr-md-5">
                     <h2>{{ page.solutions.title }}</h2>
@@ -145,7 +145,7 @@ layout: default
         <div class="container">
           <div class="row row-grid align-items-center">
             <div class="col-md-6">
-                <img src="/assets/img/webmarketing.svg" class="card-img-top" alt="web marketing solution web">
+                <img src="{{ base.url | prepend: site.url }}/assets/img/webmarketing.svg" class="card-img-top" alt="web marketing solution web">
             </div>
             <div class="col-md-6">
               <div class="pl-md-5">

@@ -2,7 +2,7 @@
         <div class="container pt-3 pb-300">
             <div class="row text-center justify-content-center">
                 <div class="col-lg-10">
-                    <h2 class="display-3 text-white"><a href="/contact" class="text-white" title="Formulaire de contact Xadezign">{{ page.form-contact-lead.title }}</a></h2>
+                    <h2 class="display-3 text-white"><a href="{{ base.url | prepend: site.url }}/contact" class="text-white" title="Formulaire de contact Xadezign">{{ page.form-contact-lead.title }}</a></h2>
                     <p class="lead text-white">{{ page.form-contact-lead.body }}</p>
                 </div>
             </div>
