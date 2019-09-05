@@ -1,3 +1,2 @@
 User-agent: *
-Sitemap: http://xadezign.com/sitemap.xml
 Disallow: /
