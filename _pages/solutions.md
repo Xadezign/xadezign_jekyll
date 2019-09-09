@@ -1,6 +1,6 @@
 ---
 layout: page_solutions
-title: Solutions digitales et Web
+title: Solutions digitales et Web - Montauban & Toulouse
 description : Un projet, des solutions web et digitales accompagnées par un consultant en Occitanie (Toulouse et Montauban)
 permalink: /solutions-web/
 icon: <i class="fas fa-code-branch text-purple"></i>

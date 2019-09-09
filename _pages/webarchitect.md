@@ -1,5 +1,6 @@
 ---
 layout: page_webarchitect
+title: Outils & Techniques web et digitaux - Montauban & Toulouse
 title: Conseils en conception web sites et web applications
 description: De la stratégie à la mise en œuvre technique, François Perrier consultant web accompagne à chaque étape d’un projet web ou numérique (digital).
 permalink: /webarchitect/

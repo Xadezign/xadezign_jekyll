@@ -1,6 +1,6 @@
 ---
 layout: page_webmarketing
-title: Conseils stratégique en Webmarketing
+title: Conseils stratégique en Webmarketing - Montauban & Toulouse
 description: François Perrier élabore des stratégies marketing adaptées à vos besoins. Via une approche naturelle du référencement (SEO) et du marketing automation (Inbound marketing).
 permalink: /webmarketing/
 icon: <i class="fas fa-bullhorn text-purple"></i>
