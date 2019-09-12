@@ -4,7 +4,7 @@
 
 layout: home
 title: François Perrier consultant web & digital sur Montauban et Toulouse
-description: François Perrier Consultant web et digital vous accompagne sur la stratégie et la création de l’ensemble de vos projets web et numériques (digitaux) en Occitanie, entre Toulouse et Montauban.
+description: François Perrier consultant web et digital vous accompagne sur la création de l’ensemble de vos projets web et numériques en Occitanie entre Toulouse et Montauban.
 name-badge: François Perrier
 title-h1: Consultant en Stratégies Web et digitales
 lead-title: Vous accompagne sur la stratégie et la création de l’ensemble de vos projets web et numériques (digitaux) en Occitanie, entre Toulouse et Montauban.
