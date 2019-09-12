@@ -1,6 +1,6 @@
 ---
 layout: about
-title: A propos de François Perrier - Consultant Web & Digital (Toulouse - Montauban)
+title: François Perrier - Consultant Web & Digital (Toulouse - Montauban)
 description: François Perrier consultant Web dans la région Occitanie (Toulouse & Montauban) depuis plus de 8 ans dans le métier du Web et des nouvelles technologies.
 permalink: /a-propos/
 icon: <i class="fas fa-info-circle text-purple"></i>

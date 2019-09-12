@@ -1,7 +1,7 @@
 ---
 layout: page_webdesign
 permalink: /webdesign/
-title: Conseils en Webdesign - UI/UX Design - Montauban & Toulouse
+title: Conseils Webdesign & UI/UX Design à Montauban & Toulouse
 description:  Des interfaces web uniques et adaptées à vos besoins en stratégies web et digitales en Occitanie (Toulouse et Montauban)
 icon: <i class="fas fa-palette text-purple"></i>
 name-badge: Design Web professionnel pour les interfaces
