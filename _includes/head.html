@@ -45,18 +45,15 @@
 	{% endfor %}
 	{% endif %}
 
-	
 	<!-- Twitter cards -->
 	<meta name="twitter:site"    content="@{{ site.twitter_username }}">
 	<meta name="twitter:creator" content="@{{  site.twitter_username }}">
 	<meta name="twitter:title"   content="{{ page.title }}">
-
 	{% if page.summary %}
 	<meta name="twitter:description" content="{{ page.summary }}">
 	{% else %}
 	<meta name="twitter:description" content="{{ page.description }}">
 	{% endif %}
-
 	{% if page.image %}
 	<meta name="twitter:card"  content="summary_large_image">
 	<meta name="twitter:image" content="{{ base.url | prepend: site.url }}/assets/img/{{ page.image }}">
@@ -66,12 +63,10 @@
 	{% endif %}
 	<!-- end of Twitter cards -->
 
-
-
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - Xadezign</title>
 
 	<!-- Favicon -->
-	<link href="{{ base.url | prepend: site.url }}/assets/img/favicon.svg" rel="icon" type="image/png">
+	<link href="{{ base.url | prepend: site.url }}/assets/img/favicon.png" rel="icon" type="image/png">
 	<!-- Lien Canonique -->
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
 	<!-- Fonts -->
