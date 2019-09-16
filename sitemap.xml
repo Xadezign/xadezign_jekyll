@@ -48,4 +48,10 @@
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>http://xadezign.com/mentions-legales/</loc>
+        <lastmod>2019-09-16</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.1</priority>
+    </url>
 </urlset>
