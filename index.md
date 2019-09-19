@@ -11,15 +11,15 @@ lead-title: Vous accompagne sur la stratégie et la création de l’ensemble de
 creative-title: Creative Technologist
 creative-body: 
     bloc1: Pourquoi creative technologist ? ou Technologue créatif ? Vous trouverez dans mon profil des compétences en design, en web & mobile et en maîtrise de différents technologies. L'objectif sera de donner vie à vos interfaces et vos projets digitaux. 
-    bloc2: Passionné par la création, je vous aide à trouver des solutions adaptées à vos besoins. Nous les transposerons sur des supports digitaux. Concrètement je maîtrise la gestion de projet, le webdesign, lergonomie, l'UX/UI, et les bonnes pratiques Web HTML/CSS et le SEO (Référencement naturel).
-    bloc3: Je vous propose tous les outils qui vous permettront d’imaginer et de réaliser un site web ou une application en faisant preuve d’invention. Je suis à l’affut de toute nouveauté pour être au fait de l’innovation technologique et des nouvelles pratiques.   
+    bloc2: Passionné par la création, je vous aide à trouver des solutions adaptées à vos besoins. Nous les transposerons sur des supports digitaux. Concrètement je maîtrise la gestion de projet, le webdesign, l'ergonomie, l'UX/UI, et les bonnes pratiques Web HTML/CSS et le SEO (Référencement naturel).
+    bloc3: Je vous propose tous les outils qui vous permettront d’imaginer et de réaliser et de participer à la création d'un site web ou site internet ou une web application en faisant preuve d’invention. Je suis à l’affut de toute nouveauté pour être au fait de l’innovation technologique et des nouvelles pratiques.   
 expert:
     title: Expertises & Conseils Numériques
     body: Je réponds à vos différents enjeux digitaux et à vos projets grâce à une approche conseil, un éventail d’expertises adaptées et des solutions sur-mesure.
     webarchitect:
         title: Web Architect
-        body: De la stratégie à la mise en œuvre de vos projets techniques.
-        link: Structurez votre projet
+        body: De la stratégie à la mise en œuvre de vos projets web & techniques.
+        link: Structurez votre projets
     webmarketing:
         title: Web Marketing
         body: J’élabore des stratégies marketing digitales adaptées à vos besoins.
